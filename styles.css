@@ -1,17 +1,28 @@
 
 body{
-    margin: 0px  ;
+    margin: 0 ;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 *{
     box-sizing: border-box ;
 }
 
-.border {
-    border: 1px solid ;
+
+.welcome-section{
+    background-image: url(images/gradient.png);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+
 .header {
+    padding: 38px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,19 +37,91 @@ body{
     display: flex;
     list-style: none;
     padding: 0px;
+    margin-right: 40px;
 }
 
 .header-nav-item {
-    margin-right: 21px;
+    margin-right: 20px;
     padding: 10px;
-    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 27px;
+
 }
 
-.welcome-section{
-    background-image: url(images/gradient.png);
-    background-size: cover;
-    background-repeat: no-repeat ;
+.header-form-input {
+    padding: 20px 40px;
+    background: #EFEFEF;
+    opacity: 0.12;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 39px;
+    width: 273px;
+    height: 54px;
+    margin-right: 12px;
 }
+
+
+.header-form-button {
+    padding: 19px 38px;
+    width: 141px;
+    height: 54px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-radius: 35px;
+    border: none;
+    cursor: pointer;
+    color: #2091F9;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+
+.center-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center-section-text{
+    margin-bottom: 17px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+
+}
+
+.center-section-title {
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 65px;
+    margin-bottom: 27px;
+}
+
+.center-section-subtitle {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 90px;
+}
+
+.center-section-button {
+    width: 236px;
+    height: 65px;
+    margin-bottom: 114px;
+    background: #FFFFFF;
+    border-radius: 35px;
+    border: none;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2091F9;
+}
+
+
+
+
 
 
 
