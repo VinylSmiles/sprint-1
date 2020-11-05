@@ -1,44 +1,46 @@
 
-* {
-    box-sizing: border-box;
-}
-
 body{
     margin: 0px  ;
+}
+
+*{
+    box-sizing: border-box ;
 }
 
 .border {
     border: 1px solid ;
 }
 
-.container {
+.header {
     display: flex;
-    flex-direction: column;
-     height: 500px;
-     align-items: center ;
-   justify-content: center;
-}
-
-.group{
-    width: 300px;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-ul {
-    list-style: none;
-    padding-left: 0px;
+
+.header-logo-container {
+    padding: 10px 30px;
+    margin-right: 12px;
+}
+
+.header-nav {
     display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+.header-nav-item {
+    margin-right: 21px;
+    padding: 10px;
+    color: white;
+}
+
+.welcome-section{
+    background-image: url(images/gradient.png);
+    background-size: cover;
+    background-repeat: no-repeat ;
 }
 
 
-.example-list .item{
-    display: inline-block;
-    width: 300px;
-    height: 400px;
-
-}
 
 .testimonials{
     width: 1439px;
