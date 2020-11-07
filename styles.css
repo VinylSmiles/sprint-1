@@ -301,8 +301,61 @@ h2 {
     color: #FFFFFF;
 }
 
+.subscribe {
+    display: flex;
+    justify-content: center;
 
+}
 
+.subscribe__img {
+    padding: 216px 0;
+    margin-right: 50px;
+    margin-bottom: 110px;
+}
+
+.subscribe__list {
+    list-style: none;
+    padding-top: 285px;
+}
+
+.subscribe__intro-pretitle {
+    padding 10px 0;
+    margin-bottom: 7px;
+}
+
+.subscribe__intro-title {
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+
+.subscribe__intro-subtitle {
+    padding: 10px;
+}
+
+.subscribe__intro-text {
+    padding-left: 10px;
+    margin-bottom: 34px;
+}
+
+.subscribe__form-input {
+    /* padding: 19px 39px; */
+    padding: 19px 0;
+    margin-right: 12px;
+    background: #F4F4F4;
+    border: 1px solid #E8E8E8;
+    border-radius: 39px;
+    width: 146px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.subscribe__form-button {
+    padding: 19px 39px;
+    background: #2091F9;
+    color: #FFFFFF;
+}
 
 .testimonials{
     width: 1439px;
