@@ -652,16 +652,27 @@ h2 {
     padding: 107px 202px;
     background: #252B42;
     color: #FFFFFF;
+    display: flex;
 }
 .footer__lists {
     list-style: none;
     padding: 0px;
     margin-right: 20px;
+
 }
 
 .footer__lists:last-child {
     margin-right: 80px;
 }
+
+.footer__lists-title:first-child {
+    margin-right: 128px;
+}
+
+.footer__lists-title {
+
+}
+
 
 .footer__form {
     width: 286px;
