@@ -691,6 +691,7 @@ footer {
 .footer__list-3-title {
     padding: 10px 76px 10px 0;
     margin-bottom: 15px;
+    white-space: nowrap;
 }
 
 .footer__sm {
