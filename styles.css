@@ -648,34 +648,91 @@ h2 {
 
 /* FOOOOOOTER */
 
-.footer {
+footer {
     padding: 107px 202px;
     background: #252B42;
     color: #FFFFFF;
     display: flex;
 }
-.footer__lists {
+.footer__list-1 {
     list-style: none;
     padding: 0px;
     margin-right: 20px;
 
 }
 
-.footer__lists:last-child {
+.footer__list-2 {
+    list-style: none;
+    padding: 0px;
+    margin-right: 20px;
+
+}
+.footer__list-3 {
+    list-style: none;
+    padding: 0px;
     margin-right: 80px;
-}
-
-.footer__lists-title:first-child {
-    margin-right: 128px;
-}
-
-.footer__lists-title {
 
 }
+
+.footer__list-1-title {
+    padding: 10px 108px 10px 0;
+    margin-bottom: 15px;
+}
+
+.footer__list-item {
+    margin-bottom: 16px;
+}
+
+.footer__list-2-title {
+    padding: 10px 99px 10px 0;
+    margin-bottom: 15px;
+}
+
+.footer__list-3-title {
+    padding: 10px 76px 10px 0;
+    margin-bottom: 15px;
+}
+
+.footer__sm {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+}
+
+.footer__sm-icon {
+    margin-right: 24px;
+    margin-bottom: 29px;
+}
+
+.footer__right-text {
+    padding: 0 84px 5px 10px;
+
+}
+
+.footer__right-subtext {
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
 
 
 .footer__form {
-    width: 286px;
     padding: 24px 10px;
+    display: flex;
+    flex-direction: column;
 }
 
+.footer__email {
+    background: #F4F4F4;
+    border: 1px solid #E8E8E8;
+    align-self: stretch;
+    border-radius: 39px;
+    padding: 19px 35px;
+    margin-bottom: 12px;
+}
+
+.footer__btn {
+    padding: 17px 144px;
+    background: #2091F9;
+    color: #FFFFFF;
+}
